@@ -135,6 +135,7 @@ img.left-image {
 
 /* about Section */
 
+
 .about-top {
     display: flex;
     justify-content: space-between;
@@ -198,4 +199,40 @@ h1.span span {
 
 .domian span {
     color: var(--bright-blue);
+}
+
+/* about bottom part */
+
+.about-bottom {
+    color: var(--navy-blue);
+    background-color: var(--pastel-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.bottom-left {
+    text-align: left;
+    border-left: 2px solid var(--navy-blue);
+    padding-left: 15px;
+    padding-block: 0;
+}
+
+.bottom-left h1,
+.bottom-left h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-right {
+    text-align: right;
+    border-right: 2px solid var(--navy-blue);
+    padding-right: 15px;
+
+}
+
+/* footer */
+footer {
+    background-color: var(--slate-blue);
+    margin: 0;
 }
