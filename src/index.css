@@ -135,7 +135,6 @@ img.left-image {
 
 /* about Section */
 
-
 .about-top {
     display: flex;
     justify-content: space-between;
@@ -254,6 +253,13 @@ a.small-links {
     flex-direction: column;
 }
 
+a.follow-us {
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+
 a.middle-link {
     font-size: 24px;
     font-weight: 600;
@@ -264,8 +270,8 @@ a.middle-link {
 .icons {
     display: flex;
     justify-content: space-around;
-    margin-top: 10px;
-    padding: 12px 10px;
+    margin-top: 5px;
+    padding: 10px 10px;
 }
 
 .fab {
@@ -289,14 +295,19 @@ footer {
     padding: 0px 20px;
 }
 
+footer p {
+    font-size: 14px;
+}
+
 .footer-links {
     display: flex;
 }
 
 footer a {
-    font-size: 15px;
+    font-size: 12px;
     margin-right: 10px;
     font-weight: 600;
+    padding: 0;
 }
 
 .border-right {

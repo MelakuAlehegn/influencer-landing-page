@@ -42,8 +42,9 @@ function Main() {
                     <a href='#' className='small-links'>FAQ</a>
                 </div>
                 <div className='bottom-right'>
+
                     <a href='#' className='middle-link'>BLOG POSTS</a>
-                    <a href='#' className='middle-link'>FOLLOW US</a>
+                    <a href='#' className='follow-us'>FOLLOW US</a>
                     <div className='icons'>
                         <a href="https://www.facebook.com" className='footer-icons'><i className="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com" className='footer-icons'><i className="fab fa-twitter"></i></a>
