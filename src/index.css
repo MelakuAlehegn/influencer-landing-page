@@ -211,7 +211,7 @@ h1.span span {
 
 .bottom-left {
     text-align: left;
-    border-left: 3px solid var(--navy-blue);
+    border-left: 4px solid var(--navy-blue);
     padding-left: 15px;
     padding-block: 0;
     display: flex;
@@ -244,13 +244,12 @@ a.small-links {
 .about-bottom a:hover,
 .terms:hover,
 .fab:hover {
-    color: var(--orange);
-    transition: 1s;
+    color: var(--bright-blue);
 }
 
 .bottom-right {
     text-align: right;
-    border-right: 2px solid var(--navy-blue);
+    border-right: 4px solid var(--navy-blue);
     display: flex;
     flex-direction: column;
 }
@@ -259,21 +258,20 @@ a.middle-link {
     font-size: 24px;
     font-weight: 600;
     margin-right: 15px;
-    margin-top: 12px;
-
+    margin-bottom: 7px;
 }
 
 .icons {
-    background-color: var(--slate-blue);
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 12px 10px;
 }
 
 .fab {
-    margin-left: 13px;
+    margin-left: 10px;
     color: var(--dark-grey);
+    font-size: 20px;
 }
 
 .footer-icons {
@@ -288,7 +286,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 20px;
+    padding: 0px 20px;
 }
 
 .footer-links {
