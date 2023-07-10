@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/AR Logo2.png'
+import logo from '../assets/logo.png'
 function Main() {
     return (
         <div className='about'>
@@ -32,33 +32,34 @@ function Main() {
                 </div>
             </div>
             <div className='domian'>
-                <h1>affiliated<span>refer</span>.com</h1>
-                <img src={logo} width={'40px'}></img>
+                <img src={logo} width={'480px'}></img>
             </div>
             <div className='about-bottom'>
                 <div className='bottom-left'>
-                    <h1>ABOUT US</h1>
-                    <h2>CONTACT US</h2>
-                    <h2>USER SUPPORT</h2>
-                    <h2>FAQ</h2>
+                    <a href='#' className='big-link'>ABOUT US</a>
+                    <a href='#' className='small-links'>CONTACT US</a>
+                    <a href='#' className='small-links'>USER SUPPORT</a>
+                    <a href='#' className='small-links'>FAQ</a>
                 </div>
                 <div className='bottom-right'>
-                    <h1>BLOG POSTS</h1>
-                    <h1>FOLLOW US</h1>
+                    <a href='#' className='middle-link'>BLOG POSTS</a>
+                    <a href='#' className='middle-link'>FOLLOW US</a>
                     <div className='icons'>
-                        <a href="https://www.facebook.com"><i className="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a>
-                        <a href="https://www.pinterest.com"><i className="fab fa-pinterest"></i></a>
-                        <a href="https://www.youtube.com"><i className="fab fa-youtube"></i></a>
-                        <a href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com" className='footer-icons'><i className="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com" className='footer-icons'><i className="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com" className='footer-icons'><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.pinterest.com" className='footer-icons'><i className="fab fa-pinterest"></i></a>
+                        <a href="https://www.youtube.com" className='footer-icons'><i className="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/" className='footer-icons'><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
             <footer>
-                <a href='#'>TERMS OF USE</a>
-                <a href='#'>PRIVACY POLICY</a>
-                <p>&copy; 2023 affiliatedrefer.com</p>
+                <div className='footer-links'>
+                    <a href='#' className='terms border-right'>TERMS OF USE</a>
+                    <a href='#' className='terms'>PRIVACY POLICY</a>
+                </div>
+                <p className='copywrite'>&copy; 2023 affiliatedrefer.com</p>
             </footer>
         </div>
     )
