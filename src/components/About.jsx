@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../assets/AR Logo2.png"
 
-function About() {
+function about() {
     return (
         <div className='about'>
             <div className='about-top'>
@@ -65,4 +65,4 @@ function About() {
     )
 }
 
-export default About
+export default about
