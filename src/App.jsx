@@ -1,12 +1,12 @@
 import './App.css'
 import Hero from './components/Hero'
-import About from './components/about'
+import Main from './components/Main'
 
 function App() {
   return (
     <main>
       <Hero />
-      <About />
+      <Main />
     </main>
   )
 }

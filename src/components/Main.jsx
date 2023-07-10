@@ -1,7 +1,6 @@
 import React from 'react'
-import logo from "../assets/AR Logo2.png"
-
-function about() {
+import logo from '../assets/AR Logo2.png'
+function Main() {
     return (
         <div className='about'>
             <div className='about-top'>
@@ -47,12 +46,12 @@ function about() {
                     <h1>BLOG POSTS</h1>
                     <h1>FOLLOW US</h1>
                     <div className='icons'>
-                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.pinterest.com"><i class="fab fa-pinterest"></i></a>
-                        <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com"><i className="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i className="fab fa-instagram"></i></a>
+                        <a href="https://www.pinterest.com"><i className="fab fa-pinterest"></i></a>
+                        <a href="https://www.youtube.com"><i className="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/"><i className="fab fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -65,4 +64,4 @@ function about() {
     )
 }
 
-export default about
+export default Main

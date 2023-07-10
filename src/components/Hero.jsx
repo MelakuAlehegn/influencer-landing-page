@@ -1,6 +1,6 @@
 import React from 'react';
 import influencer from '../assets/influencer.png';
-import leftHero from '../assets/pexels-pavel-danilyuk-5520327.png'
+// import leftHero from '../assets/pexels-pavel-danilyuk-5520327.png'
 
 function Hero() {
     return (
