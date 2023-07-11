@@ -32,7 +32,7 @@ function Main() {
                 </div>
             </div>
             <div className='domian'>
-                <img src={logo} width={'480px'}></img>
+                <img src={logo} width={'480px'} alt='logo'></img>
                 <div className='main-text'>
                     <p>We connect influencers with relevant businesses that offer commissions and rewards for promoting their items to the proper audiences.</p>
                     <p><span>If you're an influencer </span>who's struggling to monetize the attention or looking for an extra source of revenue, this should be your number-one choice. Filter and find the program that fits your niche, and start earning by becoming an affiliate. Don't wait for uncertain offers or sponsorship deals to reach your mail. No matter how small or big you are, there's a program for you here.</p>
@@ -61,7 +61,6 @@ function Main() {
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }

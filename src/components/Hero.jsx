@@ -11,7 +11,7 @@ function Hero() {
                     <a src='#' className='orange'>I'm an INFLUENCER</a>
                     <p className='orange-text'>Find what's relevant to you and earn commissions
                         & rewards. Thousands of programs to choose from.</p>
-                    <img src={influencer} width={"440px"} className='left-image'></img>
+                    <img src={influencer} width={"440px"} className='left-image' alt='influencer'></img>
                 </div>
                 <div className="hero-right">
                     <h1>Have an <br></br>affiliate program?</h1>
