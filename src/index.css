@@ -181,21 +181,25 @@ h1.span span {
     align-items: center;
     margin-top: 2rem;
     padding: 30px;
-    height: 70vh;
+    height: 90vh;
 }
 
-.domian h1 {
-    margin: 0;
-    color: var(--dark-grey);
-    font-size: 40px;
-}
 
 .domian img {
     margin-top: 10px;
 }
 
-.domian span {
-    color: var(--bright-blue);
+.main-text {
+    font-size: 18px;
+    width: 80vw;
+    letter-spacing: 1px;
+    color: #5b6369;
+    line-height: 1.5;
+}
+
+.main-text span {
+    color: #fd5a31;
+    font-size: 20px;
 }
 
 /* about bottom part */
@@ -205,7 +209,7 @@ h1.span span {
     background-color: var(--pastel-blue);
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 .bottom-left {
@@ -293,18 +297,21 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
+    height: 35px;
 }
 
 footer p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .footer-links {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 footer a {
-    font-size: 12px;
+    font-size: 16px;
     margin-right: 10px;
     font-weight: 600;
     padding: 0;
