@@ -442,17 +442,29 @@ footer a {
         justify-content: flex-end;
         align-items: center;
         width: 100%;
-        padding: 2rem;
+        padding: 2rem 0;
+    }
+
+    .hero-left {
+        padding: 2rem 1rem;
     }
 
     p.blue-text {
-        width: 100%;
-        text-align: center;
-
+        width: 90%;
+        text-align: left;
     }
 
     p.orange-text {
-        width: 100%;
+        width: 90%;
         text-align: center;
+    }
+
+    .terms {
+        font-size: 12px;
+        padding: 2px 4px;
+    }
+
+    .copywrite {
+        font-size: 11px;
     }
 }
