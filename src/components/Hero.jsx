@@ -18,7 +18,7 @@ function Hero() {
         7: "No matter how small or big you are, there's something for you here."
     };
     const text2 = {
-        1: "Enlist it here and let it promote itself for free. Make it relevant to thousands of influencers.",
+        1: "Enlisted it here and let it promote itself for free. Make it relevant to thousands of influencers.",
         2: "Simply create and enlist your program for free.",
         3: "Let the right content creator discover it and take it to millions.",
         4: "We take no commissions, no extra charges, no hidden fees.",

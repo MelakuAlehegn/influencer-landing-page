@@ -11,6 +11,7 @@ function Main() {
                         INFLUENCER <br></br> VISITS PER DAY
                     </h1>
                 </div>
+                <hr className='horizontal'></hr>
                 <div className='column'>
                     <h1 className='span middle'><span>
                         FREE
@@ -23,6 +24,8 @@ function Main() {
                         TO USE
                     </h1>
                 </div>
+                <hr className='horizontal'></hr>
+
                 <div>
                     <h1 className='span'><span>
                         2000+
@@ -48,6 +51,7 @@ function Main() {
                     <a href='#' className='small-links'>USER SUPPORT</a>
                     <a href='#' className='small-links'>FAQ</a>
                 </div>
+                <hr className='horizontal'></hr>
                 <div className='bottom-right'>
                     <a href='#' className='middle-link'>BLOG POSTS</a>
                     <a href='#' className='follow-us'>FOLLOW US</a>

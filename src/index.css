@@ -165,6 +165,10 @@ img.left-image {
 
 }
 
+.horizontal {
+    display: none;
+}
+
 h1.span span {
     font-weight: 700;
     font-size: 40px;
@@ -421,7 +425,17 @@ footer a {
 
     .about-top div {
         border-right: none;
+        /* border-bottom: 5px solid var(--navy-blue); */
         margin-bottom: 2rem;
+    }
+
+    .horizontal {
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        height: 0px;
+        border: 2px solid var(--navy-blue);
+        width: 40%;
     }
 
     .span {
