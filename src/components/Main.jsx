@@ -16,7 +16,7 @@ function Main() {
                     <h1 className='span middle'><span>
                         FREE
                     </span><br></br>
-                        TO SIGNUP
+                        TO SIGN UP
                     </h1>
                     <h1 className='span middle'><span>
                         EASY
@@ -30,7 +30,7 @@ function Main() {
                     <h1 className='span'><span>
                         2000+
                     </span><br></br>
-                        INLISTED <br></br> PROGRAMS
+                        ENLISTED <br></br> PROGRAMS
                     </h1>
                 </div>
             </div>
