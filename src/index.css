@@ -40,14 +40,14 @@ body {
     flex-direction: column;
     width: 50%;
     padding: 2rem;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: flex-end;
     text-align: right;
     background-color: var(--bright-blue);
-    background-image: url(./assets/Imageforblue.png);
+    background-image: url(./assets/Untitled-3.png);
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-size: 650px 550px;
+    background-size: 600px 400px;
 }
 
 .hero-left:hover {
@@ -60,6 +60,7 @@ body {
 
 .hero-right h1,
 .hero-left h1 {
+    z-index: 2;
     font-size: 40px;
     color: white;
     line-height: 1.2;
@@ -71,6 +72,7 @@ body {
 .hero-left p,
 .hero-right p {
     text-align: center;
+    z-index: 2;
 }
 
 .hero-left a,
@@ -84,6 +86,7 @@ body {
     font-family: inherit;
     border-radius: 70px;
     cursor: pointer;
+    z-index: 2;
 }
 
 .orange {
@@ -134,11 +137,8 @@ p.orange-text {
 }
 
 img.left-image {
-    margin: 0;
-    margin-top: -200px;
-    padding: 0;
-    margin-left: 80px;
-    /* align-self: flex-end; */
+    margin-right: 100px;
+    margin-top: -148px;
 }
 
 /* about Section */
