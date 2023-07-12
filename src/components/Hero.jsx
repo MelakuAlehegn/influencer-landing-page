@@ -9,20 +9,22 @@ function Hero() {
     const [isHovered2, setIsHovered2] = useState(false);
     const [textIndex2, setTextIndex2] = useState(0);
     const text = {
-        1: "A smart way to monetize shorts, tweets, and posts.",
-        2: "Fast and easy way to partner with the right business.",
-        3: "Filter by your niche and suggest the perfect product/service for your audience.",
-        4: "Nearly all businesses have affiliate programs. We help you find what's best for you.",
-        5: "Don't wait for uncertain offers or sponsorship deals to reach your mail.",
-        6: "No matter how small or big you are, there's something for you here."
+        1: "Find what's relevant to you and earn commissions/rewards. Thousands of programs to choose from.",
+        2: "A smart way to monetize shorts, tweets, and posts.",
+        3: "Fast and easy way to partner with the right business.",
+        4: "Filter by your niche and suggest the perfect product/service for your audience.",
+        5: "Nearly all businesses have affiliate programs. We help you find what's best for you.",
+        6: "Don't wait for uncertain offers or sponsorship deals to reach your mail.",
+        7: "No matter how small or big you are, there's something for you here."
     };
     const text2 = {
-        1: "Simply create and enlist your program for free.",
-        2: "Let the right content creator discover it and take it to millions.",
-        3: "We take no commissions, no extra charges, no hidden fees.",
-        4: "Let us bring your product/service closer to the right eyes.",
-        5: "Have the internet sell it for perpetuity without direct sponsorships.",
-        6: "You got nothing to lose but a minute to create the post."
+        1: "Enlist it here and let it promote itself for free. Make it relevant to thousands of influencers.",
+        2: "Simply create and enlist your program for free.",
+        3: "Let the right content creator discover it and take it to millions.",
+        4: "We take no commissions, no extra charges, no hidden fees.",
+        5: "Let us bring your product/service closer to the right eyes.",
+        6: "Have the internet sell it for perpetuity without direct sponsorships.",
+        7: "You got nothing to lose but a minute to create the post."
     }
     useEffect(() => {
         let intervalId;

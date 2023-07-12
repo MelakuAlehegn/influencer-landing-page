@@ -44,7 +44,7 @@ body {
     align-items: flex-end;
     text-align: right;
     background-color: var(--bright-blue);
-    background-image: url(./assets/barchart.png);
+    background-image: url(./assets/Imageforblue.png);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: 650px 550px;
@@ -188,9 +188,9 @@ h1.span span {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
     padding: 30px;
-    /* height: 90vh; */
 }
 
 
@@ -406,7 +406,7 @@ footer a {
 }
 
 /* Mobile Design */
-@media (max-width: 490px) {
+@media (max-width: 616px) {
     .domian img {
         width: 80%;
     }
@@ -426,6 +426,10 @@ footer a {
 
     .span {
         padding-right: 0;
+    }
+
+    .icons {
+        padding: 2px 100px;
     }
 }
 
