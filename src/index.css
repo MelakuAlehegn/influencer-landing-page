@@ -405,6 +405,10 @@ footer a {
         margin: 0;
         margin-bottom: 1rem;
     }
+
+    img.left-image {
+        display: none;
+    }
 }
 
 /* Mobile Design */
@@ -443,6 +447,8 @@ footer a {
     .icons {
         padding: 2px 100px;
     }
+
+
 }
 
 @media (max-width: 452px) {
@@ -503,6 +509,10 @@ footer a {
 
     a.follow-us {
         font-size: 17px;
+    }
+
+    img.left-image {
+        display: none;
     }
 }
 
