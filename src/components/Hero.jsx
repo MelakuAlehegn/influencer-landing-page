@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import influencer from '../assets/pexels-pavel-danilyuk-5520327.png';
-// import leftHero from '../assets/pexels-pavel-danilyuk-5520327.png'
-
-
+import leftHero from '../assets/influencer.png'
 function Hero() {
     const [textIndex1, setTextIndex1] = useState(0);
     const [isHovered1, setIsHovered1] = useState(false);
@@ -69,7 +67,7 @@ function Hero() {
                     >
                         {isHovered1 ? text[textIndex1 + 1] : text[1]}
                     </p>
-                    {/* <img src={influencer} width={"490px"} className='left-image' alt='influencer'></img> */}
+                    <img src={leftHero} width={"490px"} className='left-image' alt='influencer'></img>
                 </div>
                 <div className="hero-right">
                     <h1>
