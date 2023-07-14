@@ -26,7 +26,7 @@ body {
 .hero-left {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     padding: 2rem;
     transition: width 0.5s;
     position: relative;
@@ -35,7 +35,7 @@ body {
 .hero-right {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 70%;
     padding: 10rem 2rem 0rem 2rem;
     align-items: flex-end;
     text-align: right;
@@ -50,7 +50,7 @@ body {
 }
 
 .hero-right:hover {
-    width: 70%;
+    width: 77%;
 
 }
 
