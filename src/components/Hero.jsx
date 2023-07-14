@@ -84,7 +84,7 @@ function Hero() {
                     >
                         {isHovered2 ? text2[textIndex2 + 1] : text2[1]}
                     </p>
-                    <img src={influencer} width={"900px"} className='left-image' alt='influencer'></img>
+                    <img src={influencer} width={"900px"} className='left-image left' alt='influencer'></img>
                 </div>
             </div>
         </div>
