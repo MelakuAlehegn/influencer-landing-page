@@ -131,6 +131,22 @@ p.orange-text {
     text-align: left;
 }
 
+.orange-text,
+.blue-text {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.orange-text.fade-out,
+.blue-text.fade-out {
+    opacity: 0;
+}
+
+.orange-text.fade-in,
+.blue-text.fade-in {
+    opacity: 1;
+}
+
 img.left-image {
     position: absolute;
     bottom: 0;
@@ -139,16 +155,16 @@ img.left-image {
 /* about Section */
 .about-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding: 1rem 4rem;
+    padding: 1rem 5rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 .about-top div {
     border-right: 5px solid var(--navy-blue);
     text-align: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .about-top div:last-child {
@@ -156,8 +172,7 @@ img.left-image {
 }
 
 .column {
-    padding-right: 6rem;
-
+    padding-right: 3rem;
 }
 
 .horizontal {
@@ -448,7 +463,18 @@ footer a {
         padding: 2px 100px;
     }
 
+    p.blue-text {
+        width: 80%;
+        text-align: right;
+        margin-right: 10px;
 
+    }
+
+    p.orange-text {
+        width: 90%;
+        text-align: left;
+        margin-right: 10px;
+    }
 }
 
 @media (max-width: 452px) {
@@ -474,12 +500,15 @@ footer a {
 
     p.blue-text {
         width: 90%;
-        text-align: left;
+        text-align: right;
+        margin-right: 10px;
+
     }
 
     p.orange-text {
         width: 90%;
-        text-align: center;
+        text-align: left;
+        margin-right: 10px;
     }
 
     .terms {
