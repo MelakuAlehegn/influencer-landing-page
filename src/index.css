@@ -45,6 +45,10 @@ body {
     transition: width 0.5s;
 }
 
+.horizontall {
+    display: none;
+}
+
 .hero-left:hover {
     width: 60%;
 }
@@ -404,6 +408,15 @@ footer a {
         margin-top: 2rem;
     }
 
+    .horizontall {
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        height: 0px;
+        border: 2px solid var(--navy-blue);
+        width: 35%;
+    }
+
     a.follow-us,
     a.middle-link,
     a.big-link,
@@ -437,14 +450,7 @@ footer a {
         margin-bottom: 2rem;
     }
 
-    /* .horizontal {
-        display: block;
-        margin-top: -20px;
-        margin-bottom: 20px;
-        height: 0px;
-        border: 2px solid var(--navy-blue);
-        width: 40%;
-    } */
+
     .blue {
         align-self: flex-end;
         margin-right: 70px;
@@ -538,6 +544,10 @@ footer a {
 
     img.left-image {
         display: none;
+    }
+
+    .horizontall {
+        width: 65%;
     }
 }
 

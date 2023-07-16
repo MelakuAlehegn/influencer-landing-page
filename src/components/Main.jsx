@@ -50,7 +50,7 @@ function Main() {
                     <a href='#' className='small-links'>USER SUPPORT</a>
                     <a href='#' className='small-links'>FAQ</a>
                 </div>
-                <hr className='horizontal'></hr>
+                <hr className='horizontall'></hr>
                 <div className='bottom-right'>
                     <a href='#' className='middle-link'>BLOG POSTS</a>
                     <a href='#' className='follow-us'>FOLLOW US</a>
