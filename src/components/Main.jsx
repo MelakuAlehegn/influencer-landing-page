@@ -26,7 +26,7 @@ function Main() {
                 </div>
                 <hr className='horizontal'></hr>
                 <div className='padd'>
-                    <h1 className='span'><span>
+                    <h1 className='span pad'><span>
                         2000+
                     </span><br></br>
                         ENLISTED <br></br> PROGRAMS

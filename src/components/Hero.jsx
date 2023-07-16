@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import influencer from '../assets/Untitled-1.png';
 import leftHero from '../assets/influencer.png'
+
 function Hero() {
     const [textIndex1, setTextIndex1] = useState(0);
-    const [isHovered1, setIsHovered1] = useState(false);
-    const [isHovered2, setIsHovered2] = useState(false);
     const [textIndex2, setTextIndex2] = useState(0);
     const text = {
         1: "Find what's relevant to you and earn commissions/rewards. Thousands of programs to choose from.",
@@ -24,30 +23,25 @@ function Hero() {
         6: "Have the internet sell it for perpetuity without direct sponsorships.",
         7: "You got nothing to lose but a minute to create the post."
     }
-    useEffect(() => {
-        let intervalId;
-        if (isHovered1) {
-            intervalId = setInterval(() => {
-                setTextIndex1((prevIndex) =>
-                    prevIndex + 1 === Object.keys(text).length ? 0 : prevIndex + 1
-                );
-            }, 2800);
-        }
 
-        return () => clearInterval(intervalId);
-    }, [isHovered1, text]);
     useEffect(() => {
-        let intervalId;
-        if (isHovered2) {
-            intervalId = setInterval(() => {
-                setTextIndex2((prevIndex) =>
-                    prevIndex + 1 === Object.keys(text).length ? 0 : prevIndex + 1
-                );
-            }, 2800);
-        }
+        const intervalId1 = setInterval(() => {
+            setTextIndex1((prevIndex) =>
+                prevIndex + 1 === Object.keys(text).length ? 0 : prevIndex + 1
+            );
+        }, 2800);
 
-        return () => clearInterval(intervalId);
-    }, [isHovered2, text2]);
+        const intervalId2 = setInterval(() => {
+            setTextIndex2((prevIndex) =>
+                prevIndex + 1 === Object.keys(text2).length ? 0 : prevIndex + 1
+            );
+        }, 2800);
+
+        return () => {
+            clearInterval(intervalId1);
+            clearInterval(intervalId2);
+        };
+    }, [text, text2]);
 
     return (
         <div className="hero">
@@ -60,13 +54,7 @@ function Hero() {
                     <a href="#" className="orange">
                         I'm an INFLUENCER
                     </a>
-                    <p
-                        className="orange-text"
-                        onMouseEnter={() => setIsHovered1(true)}
-                        onMouseLeave={() => setIsHovered1(false)}
-                    >
-                        {isHovered1 ? text[textIndex1 + 1] : text[1]}
-                    </p>
+                    <p className="orange-text">{text[textIndex1 + 1]}</p>
                     <img src={leftHero} width={"490px"} className='left-image' alt='influencer'></img>
                 </div>
                 <div className="hero-right">
@@ -77,13 +65,7 @@ function Hero() {
                     <a href="#" className="blue">
                         I'm a BUSINESS
                     </a>
-                    <p
-                        className="blue-text"
-                        onMouseEnter={() => setIsHovered2(true)}
-                        onMouseLeave={() => setIsHovered2(false)}
-                    >
-                        {isHovered2 ? text2[textIndex2 + 1] : text2[1]}
-                    </p>
+                    <p className="blue-text">{text2[textIndex2 + 1]}</p>
                     <img src={influencer} width={"900px"} className='left-image left' alt='influencer'></img>
                 </div>
             </div>

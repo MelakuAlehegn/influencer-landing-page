@@ -149,9 +149,14 @@ img.left-image {
 }
 
 .column {
+    padding-left: 3rem;
+}
+.padd{
     padding-left: 2rem;
 }
-
+.pad{
+    padding-inline: 1rem;
+}
 .about-top div {
     display: flex;
     flex-direction: column;
