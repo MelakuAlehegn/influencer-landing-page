@@ -31,7 +31,7 @@ function Hero() {
                 setTextIndex1((prevIndex) =>
                     prevIndex + 1 === Object.keys(text).length ? 0 : prevIndex + 1
                 );
-            }, 4000);
+            }, 2800);
         }
 
         return () => clearInterval(intervalId);
@@ -43,7 +43,7 @@ function Hero() {
                 setTextIndex2((prevIndex) =>
                     prevIndex + 1 === Object.keys(text).length ? 0 : prevIndex + 1
                 );
-            }, 4000);
+            }, 2800);
         }
 
         return () => clearInterval(intervalId);

@@ -4,7 +4,7 @@ function Main() {
     return (
         <div className='about'>
             <div className='about-top'>
-                <div>
+                <div className='padd-left'>
                     <h1 className='span'><span>
                         2000+
                     </span><br></br>
@@ -25,7 +25,7 @@ function Main() {
                     </h1>
                 </div>
                 <hr className='horizontal'></hr>
-                <div>
+                <div className='padd'>
                     <h1 className='span'><span>
                         2000+
                     </span><br></br>
