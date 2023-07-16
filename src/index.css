@@ -236,6 +236,10 @@ h1.span span {
     margin-block: 0;
 }
 
+.padd-left {
+    margin-right: -3rem;
+}
+
 .about-bottom a,
 footer a,
 footer p {
@@ -352,6 +356,7 @@ footer a {
 
     .padd-left {
         padding-left: 0rem;
+        margin-right: 0;
     }
 
     .padd {
