@@ -153,8 +153,11 @@ img.left-image {
 }
 
 .about-top div {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .about-top div:last-child {
@@ -237,7 +240,7 @@ h1.span span {
 }
 
 .padd-left {
-    margin-right: -3rem;
+    margin-right: -2.8rem;
 }
 
 .about-bottom a,
