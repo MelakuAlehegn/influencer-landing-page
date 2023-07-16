@@ -25,7 +25,6 @@ function Main() {
                     </h1>
                 </div>
                 <hr className='horizontal'></hr>
-
                 <div>
                     <h1 className='span'><span>
                         2000+

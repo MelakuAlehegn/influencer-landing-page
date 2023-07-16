@@ -131,22 +131,6 @@ p.orange-text {
     text-align: left;
 }
 
-.orange-text,
-.blue-text {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.orange-text.fade-out,
-.blue-text.fade-out {
-    opacity: 0;
-}
-
-.orange-text.fade-in,
-.blue-text.fade-in {
-    opacity: 1;
-}
-
 img.left-image {
     position: absolute;
     bottom: 0;
@@ -162,7 +146,8 @@ img.left-image {
 }
 
 .about-top div {
-    border-right: 5px solid var(--navy-blue);
+    /* border-right: 5px solid var(--navy-blue); */
+    margin-inline: 7rem;
     text-align: center;
     align-items: center;
 }
@@ -172,11 +157,13 @@ img.left-image {
 }
 
 .column {
-    padding-right: 3rem;
+    /* padding-right: 4rem; */
 }
 
 .horizontal {
-    display: none;
+    border: none;
+    width: 5px;
+    background-color: var(--navy-blue);
 }
 
 h1.span span {
@@ -382,8 +369,12 @@ footer a {
         padding: 2rem;
     }
 
-    .column {
+    /* .column {
         padding-right: 0;
+    } */
+
+    .horizontal {
+        display: none;
     }
 
     .span {
@@ -446,13 +437,18 @@ footer a {
         margin-bottom: 2rem;
     }
 
-    .horizontal {
+    /* .horizontal {
         display: block;
         margin-top: -20px;
         margin-bottom: 20px;
         height: 0px;
         border: 2px solid var(--navy-blue);
         width: 40%;
+    } */
+    .blue {
+        align-self: flex-end;
+        margin-right: 70px;
+
     }
 
     .span {
