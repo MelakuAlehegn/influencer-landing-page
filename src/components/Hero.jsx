@@ -29,13 +29,13 @@ function Hero() {
             setTextIndex1((prevIndex) =>
                 prevIndex + 1 === Object.keys(text).length ? 0 : prevIndex + 1
             );
-        }, 2800);
+        }, 3400);
 
         const intervalId2 = setInterval(() => {
             setTextIndex2((prevIndex) =>
                 prevIndex + 1 === Object.keys(text2).length ? 0 : prevIndex + 1
             );
-        }, 2800);
+        }, 3400);
 
         return () => {
             clearInterval(intervalId1);
