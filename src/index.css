@@ -221,7 +221,28 @@ h1.span span {
     color: #fd5a31;
     font-size: 20px;
 }
-
+.biz, .inf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.biz{
+    flex-direction: row-reverse;
+}
+.biz img{
+    margin-left: 35px;
+}
+.inf img{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.biz span{
+    color: var(--bright-blue);
+}
+.centered{
+    text-align: center;
+    margin-top: 50px;
+}
 /* about bottom part */
 
 .about-bottom {
@@ -356,7 +377,9 @@ footer a {
         overflow-x: hidden;
         background-color: var(--orange);
     }
-
+    .inf, .biz{
+        flex-direction: column;
+    }
     .column {
         padding-left: 0rem;
     }
