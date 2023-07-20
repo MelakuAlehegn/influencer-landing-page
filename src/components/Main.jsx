@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png'
 import bizicon  from "../assets/bizicon.png";
 import inficon from "../assets/inficon.png";
+import { Link } from 'react-router-dom';
 
 function Main() {
     return (
@@ -58,8 +59,8 @@ function Main() {
             </div>
             <div className='about-bottom'>
                 <div className='bottom-left'>
-                    <a href='#' className='big-link'>ABOUT US</a>
-                    <a href='#' className='small-links'>CONTACT US</a>
+                    <Link to='/aboutus' className='big-link'>ABOUT US</Link>
+                    <Link to='/contactus' className='small-links'>CONTACT US</Link>
                     <a href='#' className='small-links'>USER SUPPORT</a>
                     <a href='#' className='small-links'>FAQ</a>
                 </div>

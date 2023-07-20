@@ -91,12 +91,12 @@ body {
 
 .orange {
     color: var(--orange);
+    transition: 1s;
 }
 
 .orange:hover {
     background-color: var(--bright-blue);
     color: white;
-    transition: 1s;
 }
 
 .blue:hover {
@@ -107,6 +107,7 @@ body {
 
 .blue {
     color: var(--bright-blue);
+    transition: 1s;
 }
 
 .hero-left p,
