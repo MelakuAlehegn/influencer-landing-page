@@ -34,6 +34,10 @@ body {
     position: relative;
 }
 
+.cc {
+    text-align: center;
+}
+
 .hero-right {
     display: flex;
     flex-direction: column;
@@ -224,28 +228,36 @@ h1.span span {
     color: #fd5a31;
     font-size: 20px;
 }
-.biz, .inf{
+
+.biz,
+.inf {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.biz{
+
+.biz {
     flex-direction: row-reverse;
 }
-.biz img{
+
+.biz img {
     margin-left: 12px;
 }
-.inf img{
+
+.inf img {
     margin-right: 40px;
     margin-left: 40px;
 }
-.biz span{
+
+.biz span {
     color: var(--bright-blue);
 }
-.centered{
+
+.centered {
     text-align: center;
     margin-top: 50px;
 }
+
 /* about bottom part */
 
 .about-bottom {
@@ -369,90 +381,117 @@ footer a {
     border-right: 2px solid var(--navy-blue);
     padding-right: 12px;
 }
-.privacy{
-    padding: 3rem;
-    font-family:  Calibri,  sans-serif
+
+.privacy {
+    padding: 3rem 12rem;
+    font-family: Calibri, sans-serif
 }
-.privacy p{
+
+.privacy p {
     line-height: 1.5;
 }
-.italic{
+
+.italic {
     font-style: italic;
 }
-.heading{
+
+.heading {
     color: var(--navy-blue);
     font-size: 42px;
 }
-.thin{
+
+.thin {
     color: var(--navy-blue);
     font-size: 35px;
     font-weight: 100;
     border-bottom: 1px solid var(--bright-blue);
     padding-bottom: 8px;
 }
-.privacy h3, .privacy h4{
+
+.privacy h3,
+.privacy h4 {
     color: #49a2da;
     opacity: .8;
 }
-a.linkp{
+
+a.linkp {
     color: var(--bright-blue);
 }
-.termsofuse{
-    padding: 3rem;
+
+.termsofuse {
+    padding: 3rem 12rem;
     font-family: 'Times New Roman', Times, serif;
 }
-.termsofuse p{
+
+.termsofuse p {
     font-size: 20px;
 }
-.termsofuse h3{
+
+.termsofuse h3 {
     font-size: 25px;
 }
-.termsofuse .italic{
+
+.termsofuse .italic {
     font-size: 15px;
 }
-.termsofuse h4{
+
+.termsofuse h4 {
     font-size: 18px;
 }
-.termsofuse h5{
+
+.termsofuse h5 {
     font-size: 19px;
 }
 
 /* About Us page */
-.aboutustop{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 5rem;
-text-align: center;
-font-family: 'Maven Pro', sans-serif;
+.aboutustop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
 }
-.aboutustop p{
+
+.aboutustop p {
     font-size: 20px;
 }
-.aboutustop h3{
+
+.aboutustop h3 {
     font-size: 39px;
     font-weight: 700;
     padding-bottom: 19px;
     margin-bottom: 0;
 }
-.inverted{
+
+.inverted {
     width: 400px;
 }
+
 /* Tablet Design */
 
 @media (max-width: 900px) {
-    .inverted{
+    .inverted {
         width: 300px;
     }
+
+    .privacy,
+    .termsofuse {
+        padding: 2rem;
+    }
+
     .hero-container {
         flex-direction: column;
         height: auto;
         overflow-x: hidden;
         background-color: var(--orange);
     }
-    .inf, .biz{
+
+    .inf,
+    .biz {
         flex-direction: column;
     }
+
     .column {
         padding-left: 0rem;
     }
