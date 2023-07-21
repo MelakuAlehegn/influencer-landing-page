@@ -388,12 +388,31 @@ footer a {
     border-bottom: 1px solid var(--bright-blue);
     padding-bottom: 8px;
 }
-h3, h4{
+.privacy h3, .privacy h4{
     color: #49a2da;
     opacity: .8;
 }
 a.linkp{
     color: var(--bright-blue);
+}
+.termsofuse{
+    padding: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.termsofuse p{
+    font-size: 20px;
+}
+.termsofuse h3{
+    font-size: 25px;
+}
+.termsofuse .italic{
+    font-size: 15px;
+}
+.termsofuse h4{
+    font-size: 18px;
+}
+.termsofuse h5{
+    font-size: 19px;
 }
 /* Tablet Design */
 
