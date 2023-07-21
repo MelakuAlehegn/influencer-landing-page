@@ -159,7 +159,7 @@ const PrivacyPolicyPage = () => {
       </div>
       <div className='about-bottom'>
         <div className='bottom-left'>
-          <Link to='/' className='big-link'>Home</Link>
+          <Link to='/about' className='big-link'>ABOUT US</Link>
           <Link to='/contact' className='small-links'>CONTACT US</Link>
           <a href='#' className='small-links'>USER SUPPORT</a>
           <a href='#' className='small-links'>FAQ</a>
