@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import aboutuslogo from '../assets/ARLogo2.png';
 import logo from '../assets/affiliatedreferrevertedlogo.png';
 import Footer from './Footer'
-
+import AboutBottom from './AboutBottom';
 
 function AboutUs() {
   return (
