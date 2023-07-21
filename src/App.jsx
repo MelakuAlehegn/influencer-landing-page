@@ -8,15 +8,15 @@ import AboutUs from './components/AboutUs';
 
 const App = () => {
   return (
-      <Routes>
+    <Routes>
       <Route path='/'>
         <Route index element={<LandingPage />} />
-        <Route path="/privacypolicy" element={<PrivacyPolicyPage />} />
-        <Route path='/termsofuse' element= {<TermsOfUse/>}/>
-        <Route path='/about' element= {<AboutUs/>}/>
-        <Route path='/contact' element= {<ContactUs/>}/>
-        </Route>
-      </Routes>
+        <Route path="privacypolicy" element={<PrivacyPolicyPage />} />
+        <Route path='termsofuse' element={<TermsOfUse />} />
+        <Route path='about' element={<AboutUs />} />
+        <Route path='contact' element={<ContactUs />} />
+      </Route>
+    </Routes>
   );
 };
 
