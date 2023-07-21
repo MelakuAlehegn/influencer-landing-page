@@ -13,8 +13,8 @@ const App = () => {
         <Route index element={<LandingPage />} />
         <Route path="/privacypolicy" element={<PrivacyPolicyPage />} />
         <Route path='/termsofuse' element= {<TermsOfUse/>}/>
-        <Route path='/aboutus' element= {<AboutUs/>}/>
-        <Route path='/contactus' element= {<ContactUs/>}/>
+        <Route path='/about' element= {<AboutUs/>}/>
+        <Route path='/contact' element= {<ContactUs/>}/>
 
         </Route>
       </Routes>

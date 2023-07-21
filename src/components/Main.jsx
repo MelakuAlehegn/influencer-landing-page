@@ -59,8 +59,8 @@ function Main() {
             </div>
             <div className='about-bottom'>
                 <div className='bottom-left'>
-                    <Link to='/aboutus' className='big-link'>ABOUT US</Link>
-                    <Link to='/contactus' className='small-links'>CONTACT US</Link>
+                    <Link to='/about' className='big-link'>ABOUT US</Link>
+                    <Link to='/contact' className='small-links'>CONTACT US</Link>
                     <a href='#' className='small-links'>USER SUPPORT</a>
                     <a href='#' className='small-links'>FAQ</a>
                 </div>
