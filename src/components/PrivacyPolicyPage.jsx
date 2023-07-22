@@ -152,8 +152,8 @@ const PrivacyPolicyPage = () => {
         <h3 className='thin'>Contact Us</h3>
         <p>
           If you have any questions about this Privacy Policy, You can contact us:
-          <br></br><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By email: <a href='#' className='linksp' >support@affiliatedrefer.com</a>
-          <br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By visiting this page on our website: <a className='linksp' href='ww.affiliatedrefer.com/contact'>www.affiliatedrefer.com/contact</a>
+          <br></br><br></br>By email: <a href='#' className='linksp' >support@affiliatedrefer.com</a>
+          <br></br>By visiting this page on our website: <a className='linksp' href='ww.affiliatedrefer.com/contact'>www.affiliatedrefer.com/contact</a>
 
         </p>
       </div>

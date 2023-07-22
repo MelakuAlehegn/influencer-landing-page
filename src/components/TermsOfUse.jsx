@@ -35,7 +35,7 @@ function TermsOfUse() {
           Subject to your compliance with these Legal Terms, including the "PROHIBITED ACTIVITIES" section below, we grant you a non-exclusive, non-transferable, revocable license to
           <br></br><br></br>· access the Services; and
           <br></br>· download or print a copy of any portion of the Content to which you have properly gained access.<br></br><br></br>
-          solely for your personal, non-commercial use or internal business purpose.<br></br><br></br>
+          solely for your personal, non-commercial use or internal business purpose.
           <br></br><br></br>Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
           <br></br><br></br>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: info@affiliatedrefer.com. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
           <br></br><br></br>We reserve all rights not expressly granted to you in and to the Services, Content, and Marks.
