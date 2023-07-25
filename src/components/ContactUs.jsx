@@ -5,39 +5,43 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFax } from 'react-icons/fa';
 
 function ContactUs() {
   return (
-    <div className='contactus-page'>
-      <div className="contact-top">
-        <div className="contact-red">
-          <h3>Contact Us</h3>
-          <div>
-            <FaMapMarkerAlt />
-            <p>32, Avenue ve Newyork</p>
+    <div className='cc'>
+      <div className='contactus-page'>
+        <div className="contact-top">
+          <div className="contact-red">
+
+            <h3>Contact Us</h3>
+            <div className='new'>
+              <div>
+                <FaMapMarkerAlt />
+                <p>32, Avenue ve Newyork</p>
+              </div>
+              <div>
+                <FaEnvelope />
+                <p>hello@loremipsum.com</p>
+              </div>
+              <div>
+                <FaPhone />
+                <p>+3356 1589 2105</p>
+              </div>
+              <div>
+                <FaFax />
+                <p>+3356 1589 2105</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <FaEnvelope />
-            <p>hello@loremipsum.com</p>
+          <div className="contact-white">
+            <div>
+              <h2>Get in Touch</h2>
+              <p>Feel free to drop us a line below!</p>
+            </div>
+            <input type="text" name="name" id="" placeholder='Your Name' />
+            <input type="email" name="email" id="" placeholder='Your Email' />
+            <textarea name="message" id="" cols="30" rows="8" placeholder='Type your message here...'></textarea>
+            <button type="submit">SEND</button>
           </div>
-          <div>
-            <FaPhone />
-            <p>+3356 1589 2105</p>
-          </div>
-          <div>
-            <FaFax />
-            <p>+3356 1589 2105</p>
-          </div>
-        </div>
-        <div className="contact-white">
-          <div>
-            <h2>Get in Touch</h2>
-            <p>Feel free to drop us a line below!</p>
-          </div>
-          <input type="text" name="name" id="" placeholder='Your Name' />
-          <input type="email" name="email" id="" placeholder='Your Email' />
-          <textarea name="message" id="" cols="30" rows="8" placeholder='Type your message here...'></textarea>
-          <button type="submit">SEND</button>
         </div>
       </div>
-      {/* 
       <div className='about-bottom'>
         <div className='bottom-left'>
           <Link to='/about' className='big-link'>ABOUT US</Link>
@@ -59,7 +63,7 @@ function ContactUs() {
           </div>
         </div>
       </div>
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }

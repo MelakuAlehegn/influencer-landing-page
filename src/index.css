@@ -474,7 +474,7 @@ a.linkp {
 
 /* Contact Us Page */
 .contactus-page {
-    background-color: #ffcfb8;
+    background-color: var(--orange);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -490,6 +490,7 @@ a.linkp {
     background-color: white;
     width: 60vw;
     height: 80vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .contact-red {
@@ -498,6 +499,7 @@ a.linkp {
     padding: 4rem 4rem 4rem 2rem;
     position: absolute;
     left: -120px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .contact-red div {
@@ -545,7 +547,7 @@ a.linkp {
 .contact-white input,
 .contact-white textarea {
     font-family: inherit;
-    background-color: #f9f9fb;
+    background-color: #eeeef0;
     border: none;
     outline: none;
     border-radius: 12px;
@@ -555,7 +557,7 @@ a.linkp {
 
 .contact-white input::placeholder,
 .contact-white textarea::placeholder {
-    color: #cacad4;
+    color: #9a9aa3;
 }
 
 .contact-white input {
@@ -566,6 +568,7 @@ a.linkp {
 .contact-white textarea {
     font-size: 14px;
     padding: .9rem 1.7rem;
+    resize: none;
 }
 
 .contact-white button {
@@ -578,11 +581,75 @@ a.linkp {
     font-family: inherit;
     font-weight: 500;
     font-size: 17px;
+    cursor: pointer;
+}
+
+.new {
+    flex-direction: column;
 }
 
 /* Tablet Design */
 
 @media (max-width: 900px) {
+
+    .contact-top {
+        flex-direction: column;
+        position: static;
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .new {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-red {
+        padding: 4rem 2rem;
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .contact-red div {
+        margin-top: .3rem;
+    }
+
+    .contact-white {
+        margin-block: 3rem;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .contact-white input,
+    .contact-white textarea {
+        margin-top: 18px;
+    }
+
+    .contact-white input {
+        font-size: 18px;
+        padding: 1rem 4rem 1rem 1rem;
+    }
+
+    .contact-white textarea {
+        font-size: 18px;
+        padding: 1rem 4rem 0rem 1rem;
+    }
+
+    .contact-white h2 {
+        font-size: 34px;
+    }
+
+    .contact-white p {
+        padding-block: 0rem;
+        font-size: 16px;
+        width: 100%;
+    }
+
     .inverted {
         width: 300px;
     }
@@ -772,8 +839,21 @@ a.linkp {
 }
 
 @media (max-width: 452px) {
+    .contact-white {
+        margin-block: 1rem;
+        width: 60%;
+    }
+
+    .contact-top {
+        width: 90vw;
+    }
+
     .column {
         padding-right: 0;
+    }
+
+    .contact-red {
+        flex-direction: column;
     }
 
     .span {
