@@ -542,6 +542,7 @@ a.linkp {
     margin: 0;
     padding-block: .6rem;
     font-size: 13px;
+    text-align: left;
 }
 
 .contact-white input,
