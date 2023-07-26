@@ -473,6 +473,12 @@ a.linkp {
 }
 
 /* Contact Us Page */
+.para {
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: var(--navy-blue);
+}
+
 .contactus-page {
     background-color: #e7f5fc;
     height: 100vh;
@@ -480,6 +486,15 @@ a.linkp {
     align-items: center;
     justify-content: center;
     font-family: 'Maven Pro', sans-serif;
+}
+
+.usr {
+    font-family: 'Maven Pro', sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
 .contact-top {
@@ -490,7 +505,6 @@ a.linkp {
     background-color: white;
     width: 60vw;
     height: 80vh;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .contact-red {
@@ -593,7 +607,7 @@ a.linkp {
 
     .contact-top {
         flex-direction: column;
-        position: static;
+        /* position: static; */
         width: 90vw;
         height: 80vh;
     }
@@ -861,6 +875,7 @@ a.linkp {
 
     .contact-red {
         flex-direction: column;
+        margin-left: 2rem;
     }
 
     .span {
