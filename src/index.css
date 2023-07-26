@@ -493,7 +493,7 @@ a.linkp {
     font-family: 'Maven Pro', sans-serif;
     width: 80%;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 0rem;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -611,6 +611,11 @@ a.linkp {
         position: static;
         width: 90vw;
         height: 80vh;
+    }
+
+    .usr {
+        margin-top: 3rem;
+
     }
 
     .new {
