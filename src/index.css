@@ -531,8 +531,8 @@ a.linkp {
 
 .contact-white h2 {
     color: var(--navy-blue);
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 600;
     margin: 0;
     padding: 0;
 }
@@ -798,6 +798,11 @@ a.linkp {
 
 /* Mobile Design */
 @media (max-width: 616px) {
+    .contact-red div {
+        margin-left: 0px;
+        text-align: left;
+    }
+
     .domian img {
         width: 80%;
     }
