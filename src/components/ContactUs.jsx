@@ -14,7 +14,7 @@ function ContactUs() {
             <div className='new'>
               <div>
                 <FaMapMarkerAlt />
-                <p>7700, Rajbari Sadar, Bangladesh</p>
+                <p className='red-text'>7700, Rajbari Sadar, Bangladesh</p>
               </div>
               <div>
                 <FaEnvelope />
@@ -22,11 +22,11 @@ function ContactUs() {
               </div>
               <div>
                 <FaPhone />
-                <p>+8801576448378</p>
+                <p className='red-text'>+8801576448378</p>
               </div>
               <div>
                 <FaFax />
-                <p>---------------------</p>
+                <p className='red-text'>---------------------</p>
               </div>
             </div>
           </div>
