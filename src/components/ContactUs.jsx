@@ -10,7 +10,6 @@ function ContactUs() {
         <div className='para'>
           <div className="contact-top">
             <div className="contact-red">
-
               <h3>Contact Us</h3>
               <div className='new'>
                 <div>

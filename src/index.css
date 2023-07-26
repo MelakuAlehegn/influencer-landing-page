@@ -481,6 +481,7 @@ a.linkp {
 
 .contactus-page {
     background-color: #e7f5fc;
+    padding-top: 2rem;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -607,7 +608,7 @@ a.linkp {
 
     .contact-top {
         flex-direction: column;
-        /* position: static; */
+        position: static;
         width: 90vw;
         height: 80vh;
     }
