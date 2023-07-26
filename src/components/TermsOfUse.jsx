@@ -253,7 +253,7 @@ function TermsOfUse() {
 
         <p>You can write us at Rajbari Sadar, 7700. Dhaka, Bangladesh.
           <br></br><br></br>Phone: 8801576448378
-          <br></br>Email: support@affiliatedrefer.com
+          <br></br>Email: info@affiliatedrefer.com
           <br></br><br></br>Contact directly from the Site: www.affiliatedrefer.com/contact
         </p>
       </div>
